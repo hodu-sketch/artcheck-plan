@@ -43,6 +43,11 @@ The dev project imports `docs/current/handoff.md` from its `CLAUDE.md` (cloud se
 - Start a cloud session with this repository only. Adding the dev repository at session start turns off this repository's hooks.
 - Work is pushed to the session's own branch. The dev project reads `docs/current/handoff.md` from the default branch, so tell the user to merge the plan branch before starting the dev session.
 
+## Git commits
+
+- Before committing, set the author: `git config user.name yujeong` and `git config user.email yujeong9104@gmail.com`.
+- Do not add `Co-Authored-By` or `Claude-Session` lines (or any other Claude attribution) to commit messages.
+
 ## Language
 
 - Write everything under `docs/` in Korean.
