@@ -46,7 +46,7 @@ The dev project imports `docs/current/handoff.md` from its `CLAUDE.md` (cloud se
 ## Git commits
 
 - Before committing, set the author: `git config user.name yujeong` and `git config user.email yujeong9104@gmail.com`.
-- Do not add `Co-Authored-By` or `Claude-Session` lines (or any other Claude attribution) to commit messages.
+- End commit messages with the `Co-Authored-By` and `Claude-Session` lines that the session provides. The author stays yujeong; these lines only mark that Claude helped.
 
 ## Language
 
